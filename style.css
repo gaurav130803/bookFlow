@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgba(246, 241, 241, 0.89);
+    background-color: rgba(236, 225, 225, 0.89);
     font-family: 'Convergence';
 }
 
@@ -54,9 +54,42 @@ body {
 
 .heading img{
     width: 4.5rem;
-    height: 5rem;
+    height: 5.2rem;
 }
 
 .heading span{
     font-weight: 520;
 }
+
+
+/* swiper */
+
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+
+
+  /* Swiper Container */
+.swiper {
+    width: 80%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Slide Styling */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 75%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
